@@ -48,7 +48,7 @@ $(function () {
 
     if (nine < rightNowAsInt) {
         $('.nine').css('backgroundColor', 'gray');
-    } else if (nine = rightNowAsInt) {
+    } else if (nine > rightNowAsInt) {
         $('.nine').css('backgroundColor', 'red');
     } else {
         $('.nine').css('backgroundColor', 'green'); 
@@ -56,7 +56,7 @@ $(function () {
     
     if (ten < rightNowAsInt) {
         $('.ten').css('backgroundColor', 'gray');
-    } else if (ten = rightNowAsInt) {
+    } else if (ten > rightNowAsInt) {
         $('.ten').css('backgroundColor', 'red');
     } else {
         $('.ten').css('backgroundColor', 'green'); 
@@ -64,7 +64,7 @@ $(function () {
     
     if (eleven < rightNowAsInt) {
         $('.eleven').css('backgroundColor', 'gray');
-    } else if (eleven = rightNowAsInt) {
+    } else if (eleven > rightNowAsInt) {
         $('.eleven').css('backgroundColor', 'red');
     } else {
         $('.eleven').css('backgroundColor', 'green'); 
@@ -72,7 +72,7 @@ $(function () {
     
     if (twelve < rightNowAsInt) {
         $('.twelve').css('backgroundColor', 'gray');
-    } else if (twelve = rightNowAsInt) {
+    } else if (twelve > rightNowAsInt) {
         $('.twelve').css('backgroundColor', 'red');
     } else {
         $('.twelve').css('backgroundColor', 'green'); 
@@ -80,7 +80,7 @@ $(function () {
     
     if (thirteen < rightNowAsInt) {
         $('.thirteen').css('backgroundColor', 'gray');
-    } else if (thirteen = rightNowAsInt) {
+    } else if (thirteen > rightNowAsInt) {
         $('.thirteen').css('backgroundColor', 'red');
     } else {
         $('.thirteen').css('backgroundColor', 'green'); 
@@ -88,7 +88,7 @@ $(function () {
     
     if (fourteen < rightNowAsInt) {
         $('.fourteen').css('backgroundColor', 'gray');
-    } else if (fourteen = rightNowAsInt) {
+    } else if (fourteen > rightNowAsInt) {
         $('.fourteen').css('backgroundColor', 'red');
     } else {
         $('.fourteen').css('backgroundColor', 'green'); 
@@ -96,7 +96,7 @@ $(function () {
     
     if (fifteen < rightNowAsInt) {
         $('.fifteen').css('backgroundColor', 'gray');
-    } else if (fifteen = rightNowAsInt) {
+    } else if (fifteen > rightNowAsInt) {
         $('.fifteen').css('backgroundColor', 'red');
     } else {
         $('.fifteen').css('backgroundColor', 'green'); 
@@ -104,7 +104,7 @@ $(function () {
     
     if (sixteen < rightNowAsInt) {
         $('.sixteen').css('backgroundColor', 'gray');
-    } else if (sixteen = rightNowAsInt) {
+    } else if (sixteen > rightNowAsInt) {
         $('.sixteen').css('backgroundColor', 'red');
     } else {
         $('.sixteen').css('backgroundColor', 'green'); 
@@ -112,7 +112,7 @@ $(function () {
     
     if (seventeen < rightNowAsInt) {
         $('.seventeen').css('backgroundColor', 'gray');
-    } else if (seventeen = rightNowAsInt) {
+    } else if (seventeen > rightNowAsInt) {
         $('.seventeen').css('backgroundColor', 'red');
     } else {
         $('.seventeen').css('backgroundColor', 'green'); 
