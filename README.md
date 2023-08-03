@@ -1,14 +1,14 @@
-# JavaScript quiz
+# Workday Scheduler
 
 ## Description
-This is a JavaScript quiz made using a lot of new terms(for me).
+This is a day scheduler to write down any ToDos you need done that day.
 
 ## 
-This quiz can be used for fun and also dissecting the code if needed.
-![my-javascript-quiz](./assets/Screenshot%20(9).png)
+This project can be used as intended as well as to dissect and take code snippets if need be.
+![workday-scheduler](./assets/images/Screenshot%20(10).png)
 
 ## Credits
-Most of the help came from youtuber Keith Paterson.
+Help came from a little youtube as well as ChatGpt and thanks to the ta's too.
 
 ## Liscense
 Please reference the repo.
