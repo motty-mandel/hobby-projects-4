@@ -2,6 +2,7 @@
 // the code isn't run until the browser has finished rendering all the elements
 // in the html.
 
+var saveButton = document.querySelector('.saveBtn')
 var nine = document.querySelector('.nine');
 var ten = document.querySelector('.ten');
 var eleven = document.querySelector('.eleven');
@@ -12,8 +13,11 @@ var fifteen = document.querySelector('.fifteen');
 var sixteen = document.querySelector('.sixteen');
 var seventeen = document.querySelector('.seventeen');
 
+var nineText = document.querySelector('#nineText');
 
+var nineNewSaved = localStorage.getItem('nineSaved');
 
+nineText.innerHTML = nineNewSaved;
 
 $(function () {
     // TODO: Add a listener for click events on the save button. This code should
@@ -23,6 +27,12 @@ $(function () {
     // time-block containing the button that was clicked? How might the id be
     // useful when saving the description in local storage?
     //
+    saveButton.addEventListener('click', function() {
+        nineNewSaved = nineText.value;
+        localStorage.setItem('nineSaved', nineNewSaved);
+    })
+
+
     // TODO: Add code to apply the past, present, or future class to each time
     // block by comparing the id to the current hour. HINTS: How can the id
     // attribute of each time-block be used to conditionally add or remove the
@@ -30,7 +40,7 @@ $(function () {
     // current hour in 24-hour time?
 
     allHours = [
-        nine = 9,
+        nineOclock = 9,
         ten = 10,
         eleven = 11,
         twelve = 12,
@@ -44,7 +54,6 @@ $(function () {
     var rightNow = dayjs();
 
     var rightNowAsInt = parseInt(rightNow.hour(), 10);
-    console.log(rightNowAsInt);
 
     if (nine < rightNowAsInt) {
         $('.nine').css('backgroundColor', 'gray');
@@ -120,7 +129,7 @@ $(function () {
 
     // for (var i = 0; i < allHours.length; i++) {
     //     if (allHours[i] < rightNowAsInt) {
-    //         allHours[i].style.bsckgroundColor = 'gray';
+    //         $('.nine').css('backgroundColor', 'red');
     //     }
     // }
 
