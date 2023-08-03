@@ -40,7 +40,7 @@ $(function () {
     // current hour in 24-hour time?
 
     allHours = [
-        nineOclock = 9,
+        nine = 9,
         ten = 10,
         eleven = 11,
         twelve = 12,
