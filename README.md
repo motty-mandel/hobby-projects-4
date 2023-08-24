@@ -10,5 +10,5 @@ This project can be used as intended as well as to dissect and take code snippet
 ## Credits
 Help came from a little youtube as well as ChatGpt and thanks to the ta's too.
 
-## Liscense
+## License
 Please reference the repo.
