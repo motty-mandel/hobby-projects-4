@@ -4,7 +4,7 @@ body {
   }
   
   textarea {
-    background: transparent;
+    
     border: none;
     resize: none;
     color: #000000;
@@ -13,7 +13,7 @@ body {
   }
   
   .description {
-    white-space: pre-wrap;
+    white-space: nowrap;
   }
   
   .time-block {
